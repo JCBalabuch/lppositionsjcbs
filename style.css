@@ -1,0 +1,76 @@
+/* Importación de fuente */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+/* ESTILOS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  /* COLORS */
+  --lppjcbs-color-primary: #ffedbc;
+  --lppjcbs-color-secondary: #8b5d33;
+
+  /* BACKGROUND COLOR  */
+  --lppjcbs-bg-primary: #8b5d33;
+  --lppjcbs-bg-secondary: #ffedbc;
+  --lppjcbs-bg-hf: #be895e9a;
+}
+
+body {
+  font-family: "Young Serif", serif;
+  margin: 0 10px;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--lppjcbs-bg-primary);
+  color: var(--lppjcbs-color-primary);
+}
+
+header {
+  width: 100%;
+  height: 10svh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--lppjcbs-bg-hf);
+  z-index: 1;
+  color: var(--lppjcbs-color-primary);
+}
+
+main {
+  padding-top: 10svh;
+  width: 100%;
+  height: 55svh;
+}
+
+.sidebar {
+  position: absolute;
+  top: 23svh;
+  right: 10px;
+  padding: 10px;
+  border: 1px dotted var(--lppjcbs-bg-secondary);
+}
+
+.features {
+  width: 100%;
+  height: 65svh;
+  top: 70svh;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 5svh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--lppjcbs-bg-hf);
+  color: var(--lppjcbs-color-primary);
+  text-align: center;
+}
